@@ -65,8 +65,8 @@ p {
 }
 
 #mail {
-    font-size: 20px;
-    padding: 25px 30px;
+    font-size: 15px;
+    padding: 27px 30px;
     border: none;
     width: 430px;
     margin: 1px;
@@ -116,4 +116,80 @@ h2 {
 h2 + p {
     font-size: 22px;
     font-weight: 600;
+}
+
+#preguntas {
+    border-bottom: 8px solid rgb(34, 34, 34);
+    padding-bottom: 80px;
+}
+
+.faq {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.faq h2 {
+    margin-bottom: 47px;
+}
+
+.collapsible {
+    background-color: rgb(48, 48, 48);
+    cursor: pointer;
+    padding: 20px 25px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.collapsible:after {
+    content: '\2795';
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2716";
+    margin-right: 8px;
+}
+
+.content {
+    padding: 0px 25px;
+    margin: 2px 0px 2px;
+    text-align: left;
+    font-size: 25px;
+    letter-spacing: 0ch;
+    font-weight: 600;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    background-color: rgb(48, 48, 48);
+}
+
+.faq p {
+    margin-top: 80px;
+}
+
+.btn2 {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 22px 5px;
+    width: 300px;
+    background-color: rgb(227, 8, 19);
+    cursor: pointer;
+    border: none;
+    margin: 1px;
+    /* float: left; */
+}
+
+.btn2:hover {
+    background-color: rgb(244, 6, 18);
 }
