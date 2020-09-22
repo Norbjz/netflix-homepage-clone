@@ -4,31 +4,90 @@ boton 227,8,19
 hover btn 244,6,18
 grey 48,48,48
 
-footer 117,117,117 and 153,153,153 */
+footer 117,117,117 and idioma 153,153,153 */
 
 * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
 }
 
 #head {
-    background-image: url(img/coverf.jpg);
+    background-image: url(img/cover3.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 80vh;
+    height: 90vh;
+    border-bottom: 10px solid rgb(34, 34, 34);
 }
 
 #logo {
     width: 200px;
-    margin-left: 2%;
+    left: 30px;
+    position: absolute;
 }
 
 #sign {
     background-color: rgb(227, 8, 19);
-    color: white;
-    font-size: 18px;
+    font-size: 15px;
     margin: 0 2%;
     padding: 8px 20px;
     border-radius: 5px;
     border: none;
+    position: absolute;
+    top: 30px;
+    right: 30px;
 }
+
+#homemsg {
+    padding-top: 200px;
+    text-align: center;
+    width: 900px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+
+h1 + p {
+    font-size: 28px;
+}
+
+p {
+    letter-spacing: 1px;
+}
+
+#mail {
+    font-size: 20px;
+    padding: 25px 30px;
+    border: none;
+    width: 430px;
+    margin: 1px;
+    float: left;
+}
+
+.btn {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 22px 5px;
+    width: 400px;
+    background-color: rgb(227, 8, 19);
+    cursor: pointer;
+    border: none;
+    margin: 1px;
+    /* float: left; */
+}
+
+.btn:hover {
+    background-color: rgb(244, 6, 18);
+}
+
