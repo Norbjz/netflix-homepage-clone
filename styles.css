@@ -71,6 +71,7 @@ p {
     width: 430px;
     margin: 1px;
     float: left;
+    color: black;
 }
 
 .btn {
@@ -172,7 +173,7 @@ h2 + p {
     background-color: rgb(48, 48, 48);
 }
 
-.faq p {
+#rdy {
     margin-top: 80px;
 }
 
@@ -187,9 +188,53 @@ h2 + p {
     cursor: pointer;
     border: none;
     margin: 1px;
-    /* float: left; */
 }
 
 .btn2:hover {
     background-color: rgb(244, 6, 18);
+}
+
+#footer{
+    width: 900px;
+    margin: auto;
+}
+
+a {
+    color: rgb(117, 117, 117);
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    padding-right: 90px;
+    font-size: 13px;
+}
+
+li {
+    margin: 15px 0;
+}
+
+.listas {
+    display: flex;
+}
+
+#lang {
+    border-radius: 2px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: black;
+    color: rgb(153, 153, 153);
+}
+
+#questi {
+    margin-top: 80px;
+    font-size: 15px;
+    color: rgb(117, 117, 117);
+}
+
+#where {
+    margin: 30px 0;
+    font-size: 13px;
+    color: rgb(117, 117, 117);
 }
