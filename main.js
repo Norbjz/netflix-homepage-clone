@@ -1,5 +1,4 @@
 var coll = document.getElementsByClassName("collapsible");
-var activas = 0
 
 for (var i = 0; i < coll.length; i++) {
     coll[i].addEventListener("click", expandir);
