@@ -314,7 +314,7 @@ li {
     }
 
     .segunda img {
-        width: 650px;
+        width: 640px;
     }
 
     #reverse {
@@ -356,6 +356,133 @@ li {
         font-size: 15px;
         padding: 15px 0px;
         width: 180px;
+        margin: 10px 50px;
+    }
+
+    #footer{
+        width: 80%;
+    }
+
+    ul {
+        padding-right: 10%;
+    }
+
+    #lang {
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 550px) and (max-width: 749px) {
+    #logo {
+        width: 135px;
+    }
+
+    #head {
+        height: 92vh;
+    }
+
+    #homemsg {
+        padding-top: 180px;
+        width: 70%;
+    }
+
+    h1 {
+        font-size: 44px;
+        margin-bottom: 0px;
+    }
+
+    h1 + p {
+        font-size: 20px;
+    }
+
+    #cambiar {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    #mail {
+        font-size: 15px;
+        padding: 23px 0px;
+        width: 100%;
+        float: none;
+        color: black;
+    }
+    
+    .btn {
+        font-size: 15px;
+        padding: 10px 0px;
+        width: 250px;
+        margin: 20px 20px 0;
+        font-weight: 400;
+    }
+
+    h4 {
+        font-weight: 300;
+    }
+
+    .segunda {
+        text-align: center;
+        padding: 50px 0 40px;
+    }
+
+    .textele {
+        width: 90%;
+    }
+    
+    h2 {
+        padding-top: 0px;
+        font-size: 38px;
+    }
+    
+    h2 + p {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .segunda img {
+        width: 470px;
+    }
+
+    #reverse {
+        flex-wrap: wrap-reverse;
+    }
+
+    #reverse img {
+        margin-left: 8%;
+    }
+
+    .faq {
+        width: 80%;
+    }
+
+    .faq h2 {
+        margin-bottom: 27px;
+        margin-top: 60px;
+    }
+
+    .collapsible {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    .content {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    #rdy {
+        padding-top: 40px;
+        padding-bottom: 10px;
+        width: 100%;
+        margin: auto;
+        font-size: 23px;
+    }
+    
+    .btn2 {
+        font-size: 15px;
+        padding: 15px 0px;
+        width: 170px;
         margin: 10px 50px;
     }
 
